@@ -20,14 +20,7 @@ def cos_1(degree):
         return cos
     else:
         return cos
-
-def caesar_chiper(text, s):
-    if s >= 0:
-        shift = s % 26
-    else:
-        shift = s % -26
-    return(caesar_c(text, shift))
-
+    
 def caesar_c(text, s):
     code_u1 = ""
     code_u2 = ""
@@ -60,3 +53,10 @@ def caesar_c(text, s):
             result = "Encode or decode word only..."
             break
     return(result)
+
+def caesar_chiper(text, s):
+    if s >= 0:
+        shift = s % 26
+    else:
+        shift = s % -26
+    return(caesar_c(text, shift))
