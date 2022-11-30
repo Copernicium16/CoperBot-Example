@@ -1,0 +1,63 @@
+**Moderation**
+`c.clean (clean value)`
+Purging messages
+
+**Extras**
+`c.8_ball`
+Fortune teller
+
+`c.hi`
+Bot interaction
+
+`c.ping`
+Bot latency
+
+`c.sneeze`
+Bot interaction
+
+`c.choose (low) (high)`
+Choosing number between (low) and (high)
+
+**Simple Math**
+`c.add (val1) (val2)`
+(val1+val2)
+
+`c.substract (val1) (val2)`
+(val1-val2)
+
+`c.multiply (val1) (val2)`
+(val1 val2)
+
+`c.divide (val1) (val2)`
+(val1/val2)
+
+`c.sine_degree (degree)`
+Sine of (degree)
+
+`c.sine_radian (radian)`
+Sine of (radian)
+
+`c.cosine_degree (degree)`
+Cosine of (degree)
+
+`c.cosine_radian (radian)`
+Cosine of (radian)
+
+`c.circle_area (r)`
+Area of circle (pi(r^2))
+
+`c.trapezoid_area (a) (b) (h)`
+Area of trapezoid (0.5(a+b)h)
+
+`c.triangle_area (b) (h)`
+Area of triangle (0.5b(h))
+
+`c.circle_circumference (r)`
+Circumference of circle (2(pi)r)
+
+`c.sphere_volume (r)`
+Volume of sphere ((4(pi)(r^3))/3)
+
+**Chyper Feature**
+`c.caesar (word) (s)`
+Encode or decode word in Caesar way with (s) as shift value
