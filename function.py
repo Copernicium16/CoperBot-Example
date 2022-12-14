@@ -2,7 +2,6 @@ import math
 
 upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 lower = "abcdefghijklmnopqrstuvwxyz"
-start = 0
 
 def sin_1(degree):
     if  degree % 180 == 0:
