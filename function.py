@@ -27,17 +27,13 @@ def caesar_c(text, s):
     code_l2 = ""
     for i in range(s, len(upper)):
         code_u1 += upper[i]
-        i += 1
     for i in range(s):
         code_u2 += upper[i]
-        i += 1
     code_u = code_u1 + code_u2
     for i in range(s, len(lower)):
         code_l1 += lower[i]
-        i += 1
     for i in range(s):
         code_l2 += lower[i]
-        i += 1
     result = ""
     code_l = code_l1 + code_l2
     for i in range(len(text)):
@@ -52,7 +48,7 @@ def caesar_c(text, s):
             result = "Encode or decode word only..."
             break
     return(result)
-
+    
 def caesar_chiper(text, s):
     if s >= 0:
         shift = s % 26
